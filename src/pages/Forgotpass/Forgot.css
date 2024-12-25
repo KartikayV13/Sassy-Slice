@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.forgot-container {
+  border: 2px solid black;
+  width: 350px;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin-top: -8%;
+  margin-left: 35%;
+  margin-bottom: 4.75%;
+  height: 80vh;
+  background: rgba(239, 239, 240, 1);
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+.forgot-upper {
+  height: 25%;
+  width: 100%;
+  border-radius: 30px;
+  background: rgb(255, 191, 0);
+}
+
+.forgot-upper .back {
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  padding: 5px;
+}
+
+.forgot-upper p {
+  color: white;
+  font-size: 45px;
+  margin-left: 5px;
+  font-weight: bolder;
+  text-shadow: 2px 2px #060606;
+}
+.forgot-lower {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.forgot-form {
+  /* padding: 0 0 0 20px; */
+  border-radius: 30px;
+  width: 90%;
+  height: auto;
+}
+
+.Input input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(107, 106, 106, 0.873);
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgba(255, 253, 253, 0.574);
+  margin-bottom: 20px;
+}
+.rst-btn button {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 30px;
+  padding: 5px;
+  border: none;
+}
+.rst-btn {
+  width: 80%;
+  height: auto;
+  margin-left: 28px;
+  margin-top: 20px;
+  /* border: 2px solid black; */
+  border-radius: 30px;
+  background-color: rgb(255, 191, 0);
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .forgot-container {
+    margin: 10px;
+    width: 95%;
+  }
+}
