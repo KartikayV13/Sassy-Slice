@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the project of food ordering website, you can basically add food item according to the needs and quantity in your cart and in the cart page the total amount of the item according to the quantity and requirements and you can also explore the login page and forgot password page and create account page also
 
 Currently, two official plugins are available:
 
